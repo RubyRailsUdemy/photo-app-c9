@@ -1,0 +1,39 @@
+.results-block {
+ display: inline-block; 
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.left-padding {
+  padding-left: 15px !important;
+}
+
+.logout {
+  padding-left: 0;
+}
+
+.fa.fa-user{
+  padding-top: 15px !important;
+}
+
+.nav.navbar-right li {
+  float: left !important;
+  .btn {
+    color: #fff !important;
+    margin-top: 5%;
+    /*margin-left: 5px;*/
+  }
+  .btn-danger:hover {
+    background-color: darken(#d9534f, 20%) !important;
+  }
+}
+
+.search-results-table td {
+  padding-top: 5px;
+}
+
+.label-primary {
+  padding: 5px;
+}

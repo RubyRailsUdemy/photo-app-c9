@@ -12,5 +12,6 @@
  *
  *= require devise_bootstrap_views
  *= require_tree .
- *= require_self 
+ *= require_self
+ *= require font-awesome
  */
