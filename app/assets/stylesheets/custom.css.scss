@@ -1,39 +1,101 @@
-.results-block {
- display: inline-block; 
+.user-name {
+
+padding: 0 !important ;
+
+padding-left: 5px;
+
+padding-top: 15px !important;
+
+text-align: center;
+
+a {
+
+color: black !important;
+
+margin: 0 !important;
+
+padding: 5px!important;
+
 }
 
-.no-padding {
-  padding: 0 !important;
+a:hover, a:focus {
+
+color: #000 !important;
+
 }
 
-.left-padding {
-  padding-left: 15px !important;
 }
 
 .logout {
-  padding-left: 0;
+
+padding-left: 0;
+
 }
 
-.fa.fa-user{
-  padding-top: 15px !important;
+.nav.navbar-right {
+
+padding-bottom: 10px;
+
+padding-top: 5px;
+
+}
+
+.nav.navbar-nav {
+
+.navbar-link {
+
+border-radius: 5px;
+
+color: #fff;
+
+margin-top: 15px;
+
+padding: 8px;
+
+}
+
+.navbar-link:focus, .navbar-link:hover {
+
+background: #3071a9;
+
+color: #fff;
+
+}
+
+li a {
+
+margin-right: 5px;
+
+}
+
 }
 
 .nav.navbar-right li {
-  float: left !important;
-  .btn {
-    color: #fff !important;
-    margin-top: 5%;
-    /*margin-left: 5px;*/
-  }
-  .btn-danger:hover {
-    background-color: darken(#d9534f, 20%) !important;
-  }
+
+.btn {
+
+color: #fff !important;
+
+margin-top: 5%;
+
 }
 
-.search-results-table td {
-  padding-top: 5px;
+.btn-danger:hover, .btn-danger:focus {
+
+background-color: darken(#d9534f,20%) !important;
+
 }
 
-.label-primary {
-  padding: 5px;
+.btn-primary:hover, .btn-primary:focus {
+
+background-color: darken(#428bca,20%) !important;
+
+}
+
+}
+
+.btn-primary:visited, .btn-danger:visited {
+
+color: #fff;
+
 }
